@@ -10,8 +10,9 @@ from splinter.browser import Browser
 from time import sleep
 import traceback
 # 用户名，密码
-username = u"sxj5203838@163.com"
-passwd = u"dV3L0M"
+username = u""
+passwd = u""
+# 这是台州和济南的代码具体代码用f12工具查看
 starts = u"%u53F0%u5DDE%2CTZH"
 ends = u"%u6D4E%u5357%2CJNK"
 # 时间格式2016-01-31

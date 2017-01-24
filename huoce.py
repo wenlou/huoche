@@ -19,11 +19,13 @@ ends = u"%u6D4E%u5357%2CJNK"
 dtime = u"2017-02-01"
 # 车次，选择第几趟，0则从上之下依次点击
 order = 0
-###乘客名
+###乘客名。
 pa = u"沈晓健(学生)"
-from_addr = 'sxj5203838@163.com'
-password = 'a84884670'
-to_addr = ['276372806@qq.com']
+# 邮箱地址和密码，一旦有余票用于提醒
+from_addr = ''
+password = ''
+# 要发送的邮箱地址
+to_addr = ['']
 smtp_server = 'smtp.163.com'
 """网址"""
 ticket_url = "https://kyfw.12306.cn/otn/leftTicket/init"
